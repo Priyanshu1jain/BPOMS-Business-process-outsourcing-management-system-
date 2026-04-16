@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\jainp\OneDrive\Desktop\BPO\init_db.py", line 4, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "C:\Users\jainp\OneDrive\Desktop\BPO\app\__init__.py", line 25, in create_app
+    app.register_blueprint(auth_bp, url_prefix='/api/auth')
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app' has no attribute 'register_blueprint'
